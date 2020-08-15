@@ -1,0 +1,14 @@
+C:\Users\USUARIO\Desktop\Universidad\2020\Proyectos Prueba\Practica1Lenguajes\Practica1Lenguajes\bin\Debug\Practica1Lenguajes.exe.config
+C:\Users\USUARIO\Desktop\Universidad\2020\Proyectos Prueba\Practica1Lenguajes\Practica1Lenguajes\bin\Debug\Practica1Lenguajes.exe
+C:\Users\USUARIO\Desktop\Universidad\2020\Proyectos Prueba\Practica1Lenguajes\Practica1Lenguajes\bin\Debug\Practica1Lenguajes.pdb
+C:\Users\USUARIO\Desktop\Universidad\2020\Proyectos Prueba\Practica1Lenguajes\Practica1Lenguajes\obj\Debug\Practica1Lenguajes.csprojResolveAssemblyReference.cache
+C:\Users\USUARIO\Desktop\Universidad\2020\Proyectos Prueba\Practica1Lenguajes\Practica1Lenguajes\obj\Debug\MainWindow.g.cs
+C:\Users\USUARIO\Desktop\Universidad\2020\Proyectos Prueba\Practica1Lenguajes\Practica1Lenguajes\obj\Debug\App.g.cs
+C:\Users\USUARIO\Desktop\Universidad\2020\Proyectos Prueba\Practica1Lenguajes\Practica1Lenguajes\obj\Debug\Practica1Lenguajes_MarkupCompile.cache
+C:\Users\USUARIO\Desktop\Universidad\2020\Proyectos Prueba\Practica1Lenguajes\Practica1Lenguajes\obj\Debug\Practica1Lenguajes_MarkupCompile.lref
+C:\Users\USUARIO\Desktop\Universidad\2020\Proyectos Prueba\Practica1Lenguajes\Practica1Lenguajes\obj\Debug\MainWindow.baml
+C:\Users\USUARIO\Desktop\Universidad\2020\Proyectos Prueba\Practica1Lenguajes\Practica1Lenguajes\obj\Debug\Practica1Lenguajes.g.resources
+C:\Users\USUARIO\Desktop\Universidad\2020\Proyectos Prueba\Practica1Lenguajes\Practica1Lenguajes\obj\Debug\Practica1Lenguajes.Properties.Resources.resources
+C:\Users\USUARIO\Desktop\Universidad\2020\Proyectos Prueba\Practica1Lenguajes\Practica1Lenguajes\obj\Debug\Practica1Lenguajes.csproj.GenerateResource.Cache
+C:\Users\USUARIO\Desktop\Universidad\2020\Proyectos Prueba\Practica1Lenguajes\Practica1Lenguajes\obj\Debug\Practica1Lenguajes.exe
+C:\Users\USUARIO\Desktop\Universidad\2020\Proyectos Prueba\Practica1Lenguajes\Practica1Lenguajes\obj\Debug\Practica1Lenguajes.pdb
