@@ -32,18 +32,7 @@ namespace Practica1Lenguajes.backend
 
                 if (caracter == 'Q')
                 {
-                    if (i+1 < this.oracion.Length)
-                    {
-                        Char siguienteCaracter = Convert.ToChar(oracion.Substring(i+1, 1));
-                        if (siguienteCaracter == '.')
-                        {
-                            i++;
-                            int contadorDigitos = revisarNumero(i+1, lexema);
-                            lexema.nombreLexema = "Q." + lexema.nombreLexema;
-                            i = (contadorDigitos - 1);
-                            lexema.tipoLexema = "Moneda " + lexema.tipoLexema;
-                        }
-                    }
+                    i=revisarMoneda(i,lexema);
                 }
                 else if (Char.IsDigit(caracter))
                 {
@@ -70,21 +59,15 @@ namespace Practica1Lenguajes.backend
                             esLetra = false;
                         }
                     }
-
-                    Console.Write(oracion.Substring(i, contadorLetras - i));
                     lexema.nombreLexema = Convert.ToString((oracion.Substring(i, contadorLetras - i)));
 
                     if (contadorLetras == (i + 1))
                     {                        
                         lexema.tipoLexema = "Letra";
-
-                        Console.WriteLine(" Letra");
                     }
                     else
                     {
                         lexema.tipoLexema = "Texto";
-
-                        Console.WriteLine(" Texto");
                     }
 
                     i = (contadorLetras - 1);
@@ -93,17 +76,11 @@ namespace Practica1Lenguajes.backend
                 {
                     lexema.nombreLexema = Convert.ToString(caracter);
                     lexema.tipoLexema = "Simbolo";
-                    
-
-                    Console.Write (caracter);
-                    Console.WriteLine(" Simbolo");
                 }
                 else if (caracter == ' ')
                 {
                     lexema.nombreLexema = Convert.ToString(caracter);
                     lexema.tipoLexema = "Espacio";
-
-                    Console.WriteLine(" Espacio");
                 }
 
                 dataGrid.Items.Add(lexema);
@@ -139,7 +116,6 @@ namespace Practica1Lenguajes.backend
 
             // Revisar si es entero o decimal
             String numero = oracion.Substring(i, contadorDigitos - i);
-            Console.Write(numero);
             long numeroLong = 0;
             bool canConvert = long.TryParse(numero, out numeroLong);
             lexema.nombreLexema = numero;
@@ -147,15 +123,32 @@ namespace Practica1Lenguajes.backend
             if (canConvert == true)
             {
                 lexema.tipoLexema = "Entero";
-                Console.WriteLine(" Entero");
             }
             else
             {
                 lexema.tipoLexema = "Decimal";
-                Console.WriteLine(" Decimal");
             }
             return contadorDigitos;
         }
 
+        public int revisarMoneda(int i, Lexema lexema)
+        {
+            if (i + 1 < this.oracion.Length)
+            {
+                Char siguienteCaracter = Convert.ToChar(oracion.Substring(i + 1, 1));
+                if (siguienteCaracter == '.')
+                {
+                    i++;
+                    int contadorDigitos = revisarNumero(i + 1, lexema);
+                    lexema.nombreLexema = "Q." + lexema.nombreLexema;
+                    i = (contadorDigitos - 1);
+                    lexema.tipoLexema = "Moneda " + lexema.tipoLexema;
+                }
+            }
+            return i;
+        }
+
     }
+
+    
 }

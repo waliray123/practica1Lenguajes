@@ -1,0 +1,8 @@
+(Q)([.][0..9])			Moneda(Entero) 
+(Q)([.][0..9])+([.][0..9]+)	Moneda(Decimal) 
+[0..9]+		      		Entero
+[0..9]+([.][0..9]+) 		Decimal
+([a..z][A..Z])+			Texto
+([a..z]|[A..Z])			Letra
+[!|"|#|$|%|&|/|(|)|=|?|¡]	Simbolo
+$				Espacio

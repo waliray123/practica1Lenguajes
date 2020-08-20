@@ -15,6 +15,6 @@
         </DataGrid>
         <Label x:Name="label" Content="Ingrese el Texto" HorizontalAlignment="Left" Margin="49,17,0,0" VerticalAlignment="Top"/>
         <Button x:Name="button" Content="Revisar" HorizontalAlignment="Left" Margin="49,153,0,0" VerticalAlignment="Top" Width="113" RenderTransformOrigin="0.477,-0.414" Height="37" Click="button_Click"/>
-        <TextBox x:Name="textBox" Height="100" Margin="49,48,363.2,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBox" Height="100" Margin="49,48,363.2,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
     </Grid>
 </Window>
